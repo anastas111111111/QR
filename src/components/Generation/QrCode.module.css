@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.qrWrapper svg path:last-child {
+    fill: rgb(57, 53, 53);
+}
+
+.input {
+    margin-top: 30px;
+    border-radius: 5px;
+    border: .5px solid black;
+    color: rgb(15, 15, 15);
+    width: 400px;
+    height: 50px;
+    padding: 8px 16px;
+    font-size: 32px;
+}
+
+input:focus {
+    border-color: #66afe9;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    width: 400px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.6);
+}

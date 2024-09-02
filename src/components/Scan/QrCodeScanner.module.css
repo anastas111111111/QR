@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    background-color: #f0f0f0; /* Цвет фона */
+    padding: 20px; /* Отступы */
+    border-radius: 8px; /* Закругленные углы */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+.result {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #333; /* Цвет текста */
+    padding: 10px; /* Отступы */
+    border: 1px solid #ccc; /* Обводка */
+    border-radius: 4px; /* Закругленные углы */
+    background-color: #fff; /* Фон результата */
+}

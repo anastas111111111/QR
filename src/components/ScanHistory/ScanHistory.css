@@ -1,0 +1,38 @@
+.scan-history-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.scan-history-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.scan-history-item:hover {
+  background-color: #f0f0f0;
+}
+
+.scan-history-text {
+  font-size: 16px;
+  color: #333;
+  margin-right: 20px;
+}
+
+.scan-history-qrcode {
+  flex-shrink: 0;
+}
