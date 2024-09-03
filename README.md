@@ -1,1 +1,1 @@
-# Ссылка на сайт : https://anastas111111111.github.io/QR/
+# Ссылка на сайт : https://zaharovaanatasia.github.io/QR/
